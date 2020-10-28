@@ -26,4 +26,3 @@ export default async function preview(req, res) {
   res.writeHead(307, { Location: `/posts/${post.slug}` })
   res.end()
 }
-//random comment to remove
